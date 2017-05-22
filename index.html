@@ -15,18 +15,44 @@
 
             <!--javascript functions-->
             <script>
-
-			    $(function() { //scrolling
-	                $('a[href*=#]').on('click', function(e) {
-		                e.preventDefault();
-		                $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-	                });
-                });
+			var whenToShow = 260;
+                function ifScrollShow(){//if scroll show
+        				//return this.get(0) ? this.get(0).scrollHeight > this.innerHeight() : false;
+                        if((window.screen.availHeight-(window.innerHeight+window.scrollY))>whenToShow)
+						{
+                            //$('.displayIfScrollBar').show()
+                            console.log("test has scroll")
+                            var elementsToShow = document.getElementsByClassName("ifScroll");
+                            for (i=0; i<elementsToShow.length; i++){
+                                elementsToShow[i].style.visibility="visible";
+                            }
+                        }
+                        else
+                        {
+                            //$('.displayIfScrollBar').hide()
+                            console.log("test has no scroll")
+                            var elementsToHide =  document.getElementsByClassName("ifScroll");
+                            for (i=0; i<elementsToHide.length; i++){
+                                elementsToHide[i].style.visibility="hidden";
+                            }
+                        }
+                        
+                }
+            window.addEventListener('scroll',function(e){
+                ifScrollShow();
+            });
+            
+            window.addEventListener('resize',function(e){
+                ifScrollShow();
+            });
+            
+            
             </script>
 
     </head>
 
     <body>
+        <!-- top/intro-->
         <div class = "top_background">
         <div class = "container">
             <div class="row">
@@ -36,14 +62,21 @@
                 </div>
                 <div class="row">
                     <div class="container centerText">
-                        <h1>Max Mesirow - Professional Programmer</h1>
-                        <span class = "arrow bounce"></span>
+                        <h1>Max Mesirow - Software Developer</h1>
                     </div>
                 </div>
                 <div class="span4"></div>
             </div>
         </div>
         </div>
+
+        <!-- transition arrow-->
+        <div class="container">
+            <div class="span4">
+                <span class = "arrow bounce IMGbuffer ifScroll"></span>
+            </div>
+        </div>
+
     </body>
 
 </html>
