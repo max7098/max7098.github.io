@@ -15,13 +15,12 @@
 
             <!--javascript functions-->
             <script>
-			var whenToShow = 260;
+			var whenToShow = -800;
                 function ifScrollShow(){//if scroll show
         				//return this.get(0) ? this.get(0).scrollHeight > this.innerHeight() : false;
                         if((window.screen.availHeight-(window.innerHeight+window.scrollY))>whenToShow)
 						{
                             //$('.displayIfScrollBar').show()
-                            console.log("test has scroll")
                             var elementsToShow = document.getElementsByClassName("ifScroll");
                             for (i=0; i<elementsToShow.length; i++){
                                 elementsToShow[i].style.visibility="visible";
@@ -30,7 +29,6 @@
                         else
                         {
                             //$('.displayIfScrollBar').hide()
-                            console.log("test has no scroll")
                             var elementsToHide =  document.getElementsByClassName("ifScroll");
                             for (i=0; i<elementsToHide.length; i++){
                                 elementsToHide[i].style.visibility="hidden";
