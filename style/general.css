@@ -2,6 +2,9 @@
 :root{
 --arrowShift:10px;
 }
+img{
+   max-width:100%; 
+}
 @keyframes bounce{
     0%, 20%, 50%, 80%, 100% {bottom: 45px; transform: rotate(-45deg);}
     40% {bottom: 75px; transform: rotate(-45deg);}
