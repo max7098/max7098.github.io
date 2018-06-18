@@ -2,19 +2,13 @@ body,html,#app {
     height: 100%;
 }
 
-.flex-container {
+.section-container {
     display: flex;
     flex-flow: column;
     height: 100%;
     width: 100%;
 }
 
-.profileImage{
-    width: 30%;
-    border-radius:50%;
-    padding: 5px;
-    margin: 5px;
-}
 
 header {
   display: block;
@@ -23,23 +17,42 @@ header {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/connectwork.png");
   width: 100%;
   height: auto;
+}
+
+header .row-container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 15% 0 8%;
+}
+
+header .profile{
   text-align: center;
+  width: auto;
+    float: right;
 }
 
-#headerButtons {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+.profileImage{
+    width: 30%;
+    min-width: 150px;
+    border-radius:50%;
+    padding: 5px;
+    margin: 5px;
 }
 
-.navButton{
-  float: right;
-  padding: 14px;
-  color: black;
+header .about{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+header .about p{
+    font-size: 1.15em;
 }
 
 .homePage{
   flex: 1 1 auto;
+  text-align: center;
   background-color: #E8CEB4;
 }
 
