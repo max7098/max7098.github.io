@@ -9,9 +9,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className = "flex-container">
           <NavBar />
-          <Route name="home" exact path="/" component={HomePage} />
+          <HomePage/>
           <Footer />
         </div>
       </Router>

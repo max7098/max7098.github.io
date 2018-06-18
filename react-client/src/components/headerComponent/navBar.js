@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import ProfImage from '../../resources/MaxMesirow.jpg';
 
 class NavBar extends Component {
   render() {
     return (
       <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="">Home</Link></li>
-        </ul>
+        <img className = 'profileImage' src = {ProfImage}/>
+        <h1>Max Mesirow</h1>
       </header>
     )
   }
