@@ -94,7 +94,6 @@ header .row-container{
     text-decoration: none;
 }
 .cardHeader h2{
-    color: #52D273;
     font-family:'Poppins', sans-serif;
     font-weight:700;
 }
@@ -103,12 +102,23 @@ header .row-container{
     color: #D3D3D3;
     padding: 5px;
 }
-#pokemonInfinity{
+#pokemonInfinity .cardHeader h2{
+    color: #52D273;
+}
+
+#pokemonInfinity .cardContent{
     background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("cardImages/PokemonInfinity.png");
     background-size:cover;
 }
 
+#communityCash .cardHeader h2{
+    color: #468CDE;
+}
 
+#communityCash .cardContent{
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("cardImages/communitycash.png");
+    background-size:cover;
+}
 
 footer {
   float: right;
@@ -130,6 +140,5 @@ padding: 5px;
     padding: 5px;
     color: #D3D3D3;
     font-size: 1.15em;
-
 }
 
