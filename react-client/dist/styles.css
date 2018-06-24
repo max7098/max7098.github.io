@@ -2,6 +2,10 @@ body,html,#app {
     height: 100%;
 }
 
+p{
+    font-family:'Poppins', sans-serif;
+}
+
 .section-container {
     display: flex;
     flex-flow: column;
@@ -26,12 +30,11 @@ header .row-container{
     margin: 0 15% 0 8%;
 }
 
-header .profile{
+.profile{
   text-align: center;
   width: auto;
     float: right;
 }
-
 
 .profileImage{
     width: 30%;
@@ -41,19 +44,30 @@ header .profile{
     margin: 5px;
 }
 
-header .about{
+.profile h1{
+    font-family:'Poppins', sans-serif;
+    font-weight:700;
+    color: #E5C454;
+}
+
+.about{
     display: flex;
     margin: 15px;
     align-items: center;
     justify-content: center;
 }
-header .about p{
+.about p{
     font-size: 1.15em;
 }
 
 .homePage{
   text-align: center;
   background-color: #E8CEB4;
+}
+
+.homePage h1{
+    font-family:'Poppins', sans-serif;
+    font-weight:700;
 }
 
 .scrolling-wrapper {
@@ -69,10 +83,29 @@ header .about p{
 }
 .card{
         flex: 0 0 auto;
-        background-color: red;
+        background-color: #232323;
         margin: 25px;
         width: 300px;
         height: 200px;
+        overflow: hidden;
+}
+.card a:hover{
+    flex: 1 1 auto;
+    text-decoration: none;
+}
+.cardHeader h2{
+    color: #52D273;
+    font-family:'Poppins', sans-serif;
+    font-weight:700;
+}
+.cardContent{
+    height: 100%;
+    color: #D3D3D3;
+    padding: 5px;
+}
+#pokemonInfinity{
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("cardImages/PokemonInfinity.png");
+    background-size:cover;
 }
 
 

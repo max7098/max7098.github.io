@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import GitLogo from '../../resources/GitHub-Mark-32px.png';
 
 class Footer extends Component {
   render() {
