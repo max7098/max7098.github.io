@@ -27,6 +27,18 @@ class HomePage extends Component {
                     </div>
                 </a>
             </div>
+            
+            <div className = "card" id = "EmbeddedCTF">
+                <div className = "cardHeader">
+                    <h2>Embedded CTF</h2>
+                </div>
+                <a href = "https://github.com/maxCut/0xBU_SSS_ATM">
+                    <div className = "cardContent">
+                        <p>Created a Bank system and attempted to find vulnerabilities in bank systems created by other teams</p>
+                    </div>
+                </a>
+            </div>
+
 
             <div className = "card"><h2>Card</h2></div>
             <div className = "card"><h2>Card</h2></div>

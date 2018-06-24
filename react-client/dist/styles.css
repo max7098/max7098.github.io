@@ -120,6 +120,15 @@ header .row-container{
     background-size:cover;
 }
 
+#EmbeddedCTF .cardHeader h2{
+    color: #E94F64;
+}
+
+#EmbeddedCTF .cardContent{
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("cardImages/ECTF.png");
+    background-size:cover;
+}
+
 footer {
   float: right;
   flex: 1 1 auto;
