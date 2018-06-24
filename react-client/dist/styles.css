@@ -4,6 +4,7 @@ body,html,#app {
 
 p{
     font-family:'Poppins', sans-serif;
+    font-size: 1.15em;
 }
 
 .section-container {
@@ -55,9 +56,6 @@ header .row-container{
     margin: 15px;
     align-items: center;
     justify-content: center;
-}
-.about p{
-    font-size: 1.15em;
 }
 
 .homePage{
@@ -178,3 +176,29 @@ padding: 5px;
     font-size: 1.15em;
 }
 
+
+@media screen and (max-height: 800px) {
+  p {
+    font-size: 1em;
+  }
+
+  .cardHeader h2 {
+      font-size: 1.5em;
+
+  }
+
+  .card{
+        margin: 15px;
+        width: 300px;
+        height: 150px;
+   }
+   header{
+       padding: 5%;
+   }
+   .profileImage{
+       width: 20%;
+       margin: 0 70px;
+       min-width: 100px;
+       max-width: 150px;
+   }
+}
