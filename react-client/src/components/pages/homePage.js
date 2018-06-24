@@ -28,7 +28,7 @@ class HomePage extends Component {
                 </a>
             </div>
             
-            <div className = "card" id = "EmbeddedCTF">
+            <div className = "card" id = "embeddedCTF">
                 <div className = "cardHeader">
                     <h2>Embedded CTF</h2>
                 </div>
@@ -39,11 +39,40 @@ class HomePage extends Component {
                 </a>
             </div>
 
+            <div className = "card" id = "flappyBox">
+                <div className = "cardHeader">
+                    <h2>Flappy Box</h2>
+                </div>
+                <a href = "https://github.com/maxCut/FlappyBox">
+                    <div className = "cardContent">
+                        <p>Remake of popular game "flappy bird" but for non mobile devices</p>
+                    </div>
+                </a>
+            </div>
+           
+           <div className = "card" id = "fileBrowser">
+                <div className = "cardHeader">
+                    <h2>File Browser</h2>
+                </div>
+                <a href = "https://github.com/maxCut/fileBrowser">
+                    <div className = "cardContent">
+                        <p>Portable file browser that shows hidden folders and files</p>
+                    </div>
+                </a>
+          </div>
 
-            <div className = "card"><h2>Card</h2></div>
-            <div className = "card"><h2>Card</h2></div>
-            <div className = "card"><h2>Card</h2></div>
-            <div className = "card"><h2>Card</h2></div>
+          <div className = "card" id = "communityCast">
+                <div className = "cardHeader">
+                    <h2>Community Cast</h2>
+                </div>
+                <a href = "https://github.com/maxCut/CommunityCast">
+                    <div className = "cardContent">
+                        <p>Multi Party Casting extension for chrome cast</p>
+                        <p>(In Development)</p>
+                    </div>
+                </a>
+          </div>
+
         </div>
       </div>
     )

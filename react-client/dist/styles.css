@@ -73,6 +73,7 @@ header .row-container{
 .scrolling-wrapper {
     display: flex;
     flex-wrap: nowrap;
+    margin: 5;
     overflow-x:auto;
 
     -ms-overflow-style: none;
@@ -120,15 +121,41 @@ header .row-container{
     background-size:cover;
 }
 
-#EmbeddedCTF .cardHeader h2{
+#embeddedCTF .cardHeader h2{
     color: #E94F64;
 }
 
-#EmbeddedCTF .cardContent{
+#embeddedCTF .cardContent{
     background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("cardImages/ECTF.png");
     background-size:cover;
 }
 
+#flappyBox .cardHeader h2{
+    color: #A09BD8;
+}
+
+#flappyBox .cardContent{
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("cardImages/flappyBox.png");
+    background-size:cover;
+}
+
+#fileBrowser .cardHeader h2{
+    color: #52D273;
+}
+
+#fileBrowser .cardContent{
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("cardImages/fileBrowser.png");
+    background-size:cover;
+}
+
+#communityCast .cardHeader h2{
+    color: #468CDE;
+}
+
+#communityCast .cardContent{
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("cardImages/communityCast.png");
+    background-size:cover;
+}
 footer {
   float: right;
   flex: 1 1 auto;
