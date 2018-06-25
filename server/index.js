@@ -14,3 +14,7 @@ app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
 
+var http = require("http");
+setInterval(function() {
+    http.get("http://maxmesirow.herokuapp.com");
+}, 300000);
