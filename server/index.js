@@ -17,4 +17,4 @@ app.listen(PORT, () => {
 var http = require("http");
 setInterval(function() {
     http.get("http://maxmesirow.herokuapp.com");
-}, 300000);
+}, 300000); //keeps site awake on heroku
