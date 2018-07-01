@@ -4,11 +4,11 @@ class HomePage extends Component {
   render() {
     return (
       <div className = "homePage">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <div className = "scrolling-wrapper">
             <div className = "card" id = "pokemonInfinity">
                 <div className = "cardHeader">
-                    <h2>Pokemon Infinity</h2>
+                    <h3>Pokemon Infinity</h3>
                 </div>
                 <a href = "https://github.com/maxCut/pokemon_infinity">
                     <div className = "cardContent">
@@ -18,7 +18,7 @@ class HomePage extends Component {
             </div>
             <div className = "card" id = "communityCash">
                 <div className = "cardHeader">
-                    <h2>Community Cash</h2>
+                    <h3>Community Cash</h3>
                 </div>
                 <a href = "https://github.com/Duck-and-Windmill/CommunitiCash">
                     <div className = "cardContent">
@@ -30,7 +30,7 @@ class HomePage extends Component {
             
             <div className = "card" id = "embeddedCTF">
                 <div className = "cardHeader">
-                    <h2>Embedded CTF</h2>
+                    <h3>Embedded CTF</h3>
                 </div>
                 <a href = "https://github.com/maxCut/0xBU_SSS_ATM">
                     <div className = "cardContent">
@@ -41,7 +41,7 @@ class HomePage extends Component {
 
             <div className = "card" id = "flappyBox">
                 <div className = "cardHeader">
-                    <h2>Flappy Box</h2>
+                    <h3>Flappy Box</h3>
                 </div>
                 <a href = "https://github.com/maxCut/FlappyBox">
                     <div className = "cardContent">
@@ -52,7 +52,7 @@ class HomePage extends Component {
            
            <div className = "card" id = "fileBrowser">
                 <div className = "cardHeader">
-                    <h2>File Browser</h2>
+                    <h3>File Browser</h3>
                 </div>
                 <a href = "https://github.com/maxCut/fileBrowser">
                     <div className = "cardContent">
@@ -63,7 +63,7 @@ class HomePage extends Component {
 
           <div className = "card" id = "communityCast">
                 <div className = "cardHeader">
-                    <h2>Community Cast</h2>
+                    <h3>Community Cast</h3>
                 </div>
                 <a href = "https://github.com/maxCut/CommunityCast">
                     <div className = "cardContent">

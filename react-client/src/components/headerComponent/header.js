@@ -6,11 +6,11 @@ class NavBar extends Component {
     return (
       <header>
       <div className = "row-container">
-        <div className = "profile">
-          <img className = 'profileImage' src = {ProfImage}/>
+        <div className = "col-xs-4" id = "profile">
+          <img id = 'profileImage' src = {ProfImage}/>
           <h1>Max Mesirow</h1>
         </div>
-        <div className = "about">
+        <div className = "col-xs-8" id = "about">
           <p>I am a Computer Science Major at Boston University.
             Outside of class I enjoy attending hackothons and spending
             time in the BU maker space - BUILDS. I am always looking for 

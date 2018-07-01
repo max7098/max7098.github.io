@@ -4,7 +4,7 @@ body,html,#app {
 
 p{
     font-family:'Poppins', sans-serif;
-    font-size: 1.15em;
+    font-size: 1em;
 }
 
 .section-container {
@@ -31,13 +31,11 @@ header .row-container{
     margin: 0 15% 0 8%;
 }
 
-.profile{
+#profile{
   text-align: center;
-  width: auto;
-    float: right;
 }
 
-.profileImage{
+#profileImage{
     width: 30%;
     min-width: 150px;
     border-radius:50%;
@@ -45,17 +43,15 @@ header .row-container{
     margin: 5px;
 }
 
-.profile h1{
+#profile h1{
     font-family:'Poppins', sans-serif;
     font-weight:700;
     color: #E5C454;
 }
 
-.about{
-    display: flex;
+#about{
     margin: 15px;
     align-items: center;
-    justify-content: center;
 }
 
 .homePage{
@@ -63,9 +59,10 @@ header .row-container{
   background-color: #989898;
 }
 
-.homePage h1{
+.homePage h2{
     font-family:'Poppins', sans-serif;
     font-weight:700;
+    margin:5px;
 }
 
 .scrolling-wrapper {
@@ -92,16 +89,20 @@ header .row-container{
     flex: 1 1 auto;
     text-decoration: none;
 }
-.cardHeader h2{
+.card a{
+ height:100%;
+}
+.cardHeader h3{
     font-family:'Poppins', sans-serif;
     font-weight:700;
+    margin: 2px;
 }
 .cardContent{
     height: 100%;
     color: #D3D3D3;
     padding: 5px;
 }
-#pokemonInfinity .cardHeader h2{
+#pokemonInfinity .cardHeader h3{
     color: #52D273;
 }
 
@@ -110,7 +111,7 @@ header .row-container{
     background-size:cover;
 }
 
-#communityCash .cardHeader h2{
+#communityCash .cardHeader h3{
     color: #468CDE;
 }
 
@@ -119,7 +120,7 @@ header .row-container{
     background-size:cover;
 }
 
-#embeddedCTF .cardHeader h2{
+#embeddedCTF .cardHeader h3{
     color: #E94F64;
 }
 
@@ -128,7 +129,7 @@ header .row-container{
     background-size:cover;
 }
 
-#flappyBox .cardHeader h2{
+#flappyBox .cardHeader h3{
     color: #9D98D5;
 }
 
@@ -137,7 +138,7 @@ header .row-container{
     background-size:cover;
 }
 
-#fileBrowser .cardHeader h2{
+#fileBrowser .cardHeader h3{
     color: #52D273;
 }
 
@@ -146,7 +147,7 @@ header .row-container{
     background-size:cover;
 }
 
-#communityCast .cardHeader h2{
+#communityCast .cardHeader h3{
     color: #468CDE;
 }
 
@@ -179,12 +180,7 @@ padding: 5px;
 
 @media screen and (max-height: 800px) {
   p {
-    font-size: 1em;
-  }
-
-  .cardHeader h2 {
-      font-size: 1.5em;
-
+    font-size: .9em;
   }
 
   .card{
